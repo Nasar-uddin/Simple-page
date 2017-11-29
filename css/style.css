@@ -1,0 +1,148 @@
+body {
+    background: #ffffff;
+}
+
+.navbar-default {
+    min-height: 100px;
+    background-color: white;
+    padding-top: 25px;
+    margin-bottom: 0;
+}
+
+.navbar-default .navbar-nav > li:hover > a {
+    animation: nav_animi .4s .1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes nav_animi {
+    from {
+        transform: rotateX(-90deg);
+        background: #fff;
+    }
+    to {
+        transform: rotateX(0deg);
+        background: red;
+        color: #ffffff;
+    }
+}
+
+
+/*End of the navbar style*/
+
+
+
+.right {
+	float: right;
+}
+.footer {
+	padding: 100px 100px;
+}
+
+.flower {
+    padding: 250px 200px;
+    color: #fff;
+    background-image: url(../img/monkey-puzzle-1920-1080-4060.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+@media (max-width: 768px) {
+    .flower {
+        padding: 50px 10px;
+        margin-top: 100px;
+    }
+}
+
+#about {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo {
+    font-size: 200px;
+    color: #00c3ff;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#services {
+    background: #00c3ff;
+}
+.services_text {
+	padding-top: 50px;
+}
+.some_back {
+    background: #00c3ff;
+    padding:20px 30px;
+    transition:.3s;
+}
+
+.some_back:hover {
+/*	background: #FFFFFF;*/
+    box-shadow: 0px 0px 20px rgba(10,40,0,.2);
+    transform:scale(1.005) translate(-1px,-1px);
+    z-index: 10;
+}
+.our_work_header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/*Thumbnile style */
+.thumbnail {
+	padding: 0 0 10px 0;
+    border-radius: 0px;
+    transition: box-shadow .3s;
+
+}
+.thumbnail>p {
+    position: relative;
+    opacity: 0;
+    top: 30px;
+    transition: .3s;
+
+}
+.thumbnail>a {
+    position: relative;
+    top: -30px;
+    transition: .3s;
+}
+/*Pricing style*/
+.btn-info {
+    background-color: #00c3ff;
+    padding: 10px 50px;
+}
+.panel-default {
+	border: 1px solid #00c3ff;
+    box-shadow: none;
+    transition: box-shadow .35s;
+}
+.panel-default>.panel-heading {
+    background-color: #00c3ff;
+    border: none;
+}
+.panel-default>.panel-footer {
+	background-color: #fff;
+}
+.panel-default:hover {
+	box-shadow: 0px 5px 20px rgba(20,10,0,0.2);
+
+}
+.carousel-control.right , .carousel-control.left {
+	color: #00c3ff;
+    background-image:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
